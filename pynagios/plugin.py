@@ -6,7 +6,7 @@ which should be subclassed when creating new plugins.
 
 import sys
 from copy import copy
-from optparse import Option, OptionParser, make_option
+from optparse import Option, OptionParser, make_option, OptionValueError
 from range import Range, RangeValueError
 from response import Response
 from status import Status
